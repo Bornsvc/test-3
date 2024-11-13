@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="icon" href="/img/SCC_LOGO-01.png">
+    <title>SIRIPHONESAY</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script type="text/javascript" src="/Javascript/app.js" defer></script>
+</head>
+<body>
+
+    
+    
+        <header>
+            <a href="/HTML/index.html" class="logo">
+                <img src="/img/SCC_LOGO-01.png" width="70px" height="70px" >
+                <h1> <span>SIRIPHONESAY</span> <br> Construction</h1>
+            </a>
+    
+            <input type="checkbox" id="check" style="display: none;">
+            <label for="check" class="icon">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+    
+            <nav class="navber">
+                <ul>
+                    <a href="/HTML/index.html" style="--i:0;" class="active">HOME</a>
+                    <a href="/HTML/WhoAreWe.html" style="--i:1;">WHO ARE WE</a>
+                    <a href="/HTML/service.html" style="--i:2;">SERVICE</a>
+                    <a href="/HTML/project.html" style="--i:3;">PROJECT</a>
+                    <a href="/HTML/contact.html" style="--i:4;">CONTACT</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main >
+                <h1 class="hidden">SIRIPHONESAY <br> Construction</h1>
+
+                <span class="hidden">Construction is the bridge that connects imagination to reality,where dreams are given form and possibilities become tangible</span>
+            
+            <div class="number-project hidden">
+                <div>
+                    <h2><span>350+</span> </h2><br>
+                    <q>OUR SERVICE <br> WE SLOD</q>
+                </div>
+                <div>
+                    <h2><span>25+</span> </h2><br>
+                    <q>OUT PROJECT <br> WE MADE</q>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="special-offer hidden">
+            <button class="left" onclick="slideLeft()">&#10094;</button>
+            <div class="slider">
+                <div class="slider-container">
+                    <!-- Duplicated cards for infinite scroll effect -->
+                    <div class="card hidden">
+                        <img src="/img/photo-1.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Original Cards -->
+                    <div class="card hidden">
+                        <img src="/img/photo-2.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-3.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-4.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-5.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-6.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-1.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-1.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-1.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden">
+                        <img src="/img/photo-1.webp" alt="House 1">
+                        <div class="info">
+                            <h1>
+                                $480,000
+                                <div class="rating">
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bxs-star' ></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                            </h1>
+                            <div class="details">
+                                <p><i class='bx bxs-shower'></i> 4 bathrooms</p>
+                                <p><i class='bx bxs-bed'></i> 5 bedrooms</p>
+                                <p>area 48x32</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <button class="right" onclick="slideRight()">&#10095;</button>
+        </div>
+
+        <article>
+            <h1 class="hidden">OUR STORY</h1>
+            <img width="1000px" src="/img/photo-project-4.jpg" class="hidden">
+             <div  class="article-content hidden">
+                 <span>
+         
+                     <span style="font-weight: 700; color: gold; font-size: 1.3rem;">Siriphonesay Construction</span> Sole Co., Ltd was established in 2022 as a construction company growing from the operation in infrastructure design and decoration such as building construction under the supervision of Director Boards who specialize in structural engineering and architecture.
+                 </span>
+                 <span>
+                     Offering to construct various structures, property facility development, housing, residence, sideway, and other construction projects along with guaranteeing quality control across the construction process. Moreover, facility design and related decoration projects are also available services.
+                 </span>
+                 <span>
+                     Capability and performance, combined with the implementation of a system that effectively meets the objectives that have won the trust of customers through the quality standards and honesty that result in Siriphonesay Construction Sole Co., Ltd
+                 </span>
+                 <span>
+                     At  <span style="font-weight: 700; color: gold; font-size: 1.3rem;">Siriphonesay Construction</span> Company, our vision is to be the unrivaled leader in the construction industry, setting new standards of excellence and making a lasting impact on society. We strive to create a legacy that extends far beyond bricks and mortar, focusing on social development and the highest quality standards. Our vision can be summarized as follows:
+                 </span>
+ 
+                 <a href="/HTML/project.html">View our project</a>
+             </div>
+ 
+         </article>
+
+        <aside class="hidden">
+            <h1 class="h1-sec-main">Our goal</h1>
+            <div class="container">
+                <div class="container-gird hidden">
+                    <div class="hidden">
+                        <h1 class="h1-sec">
+                            Delivering Exceptional 
+                            Quality and Quantity
+                        </h1>
+                        <span>
+                            implementing stringent quality control measures and optimizing project management, we consistently deliver exceptional quality and quantity in every construction endeavor.
+                        </span>
+                    </div>
+                    <div class="hidden">
+                        <h1 class="h1-sec">
+                            Creating Inspiring and Sustainable Spaces
+                        </h1>
+                        <span>
+                            We combine innovative design, sustainable materials, and meticulous craftsmanship to create awe-inspiring spaces that harmonize with the environment.
+                        </span>
+                    </div>
+                    <div class="hidden">
+                        <h1 class="h1-sec">
+                            Building Lasting Relationships
+                        </h1>
+                        <span>
+                            We foster communication, customer service relationships with clients, suppliers, and stakeholders.
+                        </span>
+                    </div>
+                    <div class="hidden">
+                        <h1 class="h1-sec">
+                            Invovation and Driving Construction Excellence
+                        </h1>
+                        <span>
+                           We foster communication, customer service relationships with clients, suppliers, and stakeholders.
+                        </span>
+                    </div>
+                 
+                </div>
+            </div>
+        </aside>
+
+        <section class="hidden">
+            <h1 class="h1-sec-main">Service</h1>
+
+            <div class="card-container">
+
+                <a href="/HTML/service.html" class="card ">
+                    <h1>Consultency Service</h1>
+                   <img src="/img/photo-1.webp" >
+                </a>
+                <a href="/HTML/service-2.html" class="card ">
+                    <h1>Intrerior and Exterior Decoration Service</h1>
+                    <img src="/img/photo-1.webp" >
+                </a>
+                <a href="/HTML/service-3.html" class="card ">
+                    <h1>Construction Renovation Service</h1>
+                    <img src="/img/photo-1.webp" >
+                </a>
+                <a href="/HTML/service-4.html" class="card ">
+                    <h1>Construction Design Service</h1>
+                    <img src="/img/photo-1.webp" >
+                </a>
+                <a href="/HTML/service-5.html" class="card ">
+                    <h1>Inspection Service</h1>
+                    <img src="/img/photo-1.webp" >
+                </a>
+                <a href="/HTML/service-6.html" class="card ">
+                    <h1>Construction Service</h1>
+                    <img src="/img/photo-1.webp" >
+                </a>
+                
+            </div>
+        </section>
+
+        <div class="section">
+            <h1 class="h1-sec-main">Team</h1>
+
+            <!-- Swiper container -->
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                  
+                  <!-- Swiper slide item 1 -->
+                  <div class="swiper-slide card">
+                    <div class="card-content">
+                      <!-- Profile image -->
+                      <div class="image">
+                        <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                      </div>
+            
+                      <!-- Name and profession -->
+                      <div class="name-profession">
+                        <span class="name">Someone Name</span>
+                        <span class="position-profession">Programmer</span>
+                        <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!-- Swiper slide item 2 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+              
+                      </div>
+                    </div>
+            
+                  <!-- Swiper slide item 3 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+          
+                      </div>
+                    </div>
+            
+                  <!-- Swiper slide item 4 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+              
+                      </div>
+                    </div>
+            
+                  <!-- Swiper slide item 5 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+          
+                      </div>
+                    </div>
+            
+                  <!-- Swiper slide item 6 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  <!-- Swiper slide item 7 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  <!-- Swiper slide item 8 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  <!-- Swiper slide item 9 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">LLorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  <!-- Swiper slide item 10 -->
+                  <div class="swiper-slide card">
+                      <div class="card-content">
+                        <!-- Profile image -->
+                        <div class="image">
+                          <img src="/img/photo-born.jpg" alt="Profile Image 1" />
+                        </div>
+              
+                        <!-- Name and profession -->
+                        <div class="name-profession">
+                          <span class="name">Someone Name</span>
+                          <span class="position-profession">Programmer</span>
+                          <span class="profession">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, magnam animi. Voluptate vero amet velit?</span>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+            
+              <!-- Swiper navigation buttons -->
+              <div style="color: gold;" class="swiper-button-next"></div>
+              <div style="color: gold;" class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+        </div>
+
+
+        <footer>
+            <div>
+                <h1>Page</h1>
+                <h1>Contact</h1>
+                <h1>Location</h1>
+            </div>
+            <div class="container">  
+                <div class="box-page">
+                    
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contect</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Project</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    
+                    <ul>
+                        <li style="list-style: none;">
+                            <i class='bx bxl-facebook-square'></i>
+                            <a  href="https://www.facebook.com/share/z8FAUvyoKuLoc4sV/?mibextid=LQQJ4d">
+                                <span>Siriphonesay Construction SOLE CO.,LTD</span>
+                            </a>
+                        </li>
+                        <li style="list-style: none;">
+                            <i class='bx bxs-envelope'></i>
+                            <span>siriphonesay.office.scc@gmail.com</span>
+                        </li>
+                        <li style="list-style: none;">
+                            <i class='bx bxl-whatsapp-square' ></i>
+                            <span>+856 20 88 990 999</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="location">
+                   
+                    <ul>  
+                        <li style="list-style: none;">
+                            <i  class='bx bxs-map'></i>
+                            <a href="https://maps.app.goo.gl/ySHrnE12i5AeLBeB8?g_st=iw">
+                                <span>Vientain, Xaiphany, Noungphaya village</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="sidebar">     
+                <ul>
+                     <li>
+                         <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                             <span>Page</span>
+                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                         </button>
+                         <ul class="sub-menu">
+                             <div>
+                                 <li style="--i:0;"><a class="effter" href="">Home</a></li>
+                                 <li style="--i:1;"><a class="effter" href="">Service</a></li>
+                                 <li style="--i:2;"><a class="effter" href="">Contect</a></li>
+                                 <li style="--i:3;"><a class="effter" href="">About us</a></li>
+                                 <li style="--i:4;"><a class="effter" href="">Project</a></li>
+                             </div>
+                         </ul>
+                     </li>
+                     <li>
+                         <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                             <span>Contact</span>
+                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                         </button>
+                         <ul class="sub-menu">
+                             <div>
+                                 <li>
+                                     <a href="https://www.facebook.com/share/z8FAUvyoKuLoc4sV/?mibextid=LQQJ4d">
+                                         <i  class='bx bxl-facebook-square'></i>
+                                         <span>Siriphonesay Construction SOLE CO.,LTD</span>
+                                     </a>
+                                 </li>
+                                 <li> 
+                                     <i class='bx bxs-envelope'></i>
+                                     <span>siriphonesay.office.scc@gmail.com</span>
+                                 </li>
+                             </div>
+                         </ul>
+                     </li>
+                     <li>
+                         <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                             <span>Location</span>
+                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                         </button>
+                         <ul class="sub-menu">
+                             <div>
+                                 <li>
+                                     <a href="https://maps.app.goo.gl/ySHrnE12i5AeLBeB8?g_st=iw">
+                                         <i  class='bx bxs-map'></i>
+                                         <span>Vientain, Xaiphany, Noungphaya village</span>
+                                     </a>
+                                 </li>
+                             </div>
+                         </ul>
+                     </li>
+                </ul>   
+             </div>
+
+            <div class="bottom-footer">
+                <img class="img" width="90px" height="90px" src="/img/SCC_LOGO-01.png" >
+                <span class="name-company">
+                    <b>Siriphonesay Construction SOLE CO.,LTD</b> 
+                </span>
+                <div class="contact">
+                    <span><i class='bx bxs-map'></i> <a href="#">Vientain, Xaiphany, Noungphaya village</a></span>
+                    <span><i class='bx bxl-whatsapp-square' ></i> <a href="#">+856 20 88 990 999</a></span>
+                    <span><i class='bx bxs-envelope'></i> siriphonesay.office.scc@gmail.com</span>
+                </div>
+                <div class="icon-contact">
+                    <a href="https://www.facebook.com/share/z8FAUvyoKuLoc4sV/?mibextid=LQQJ4d"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.instagram.com/bornsayavong?igsh=MWxvMmQ1cjF4M3hocg%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+                <div class="last">
+                    <span>© 2025 SIRIPHONESAY Construction. All Rights Reserved.</span>
+                </div>
+            </div>
+            
+            
+        </footer>
+        
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        grabCursor: true,
+        loop: true,
+
+        // Pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        // Next and previous navigation
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // Responsive breakpoints
+        breakpoints: {
+          0: {
+            slidesPerView: 1
+          },
+          768: {
+            slidesPerView: 2
+          },
+          1024: {
+            slidesPerView: 3
+          }
+        }
+      });
+    </script>
+
+    <script src="/Javascript/appear.js"></script>
+    <script src="/Javascript/specialoffer.js"></script>
+    
+</body>
+</html>

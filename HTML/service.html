@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service | SIRIPHONESAY</title>
+    <link rel="icon" href="/img/SCC_LOGO-01.png">
+    <link rel="stylesheet" href="/CSS/service.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="/Javascript/app.js" defer></script>
+    
+</head>
+<body>
+    
+    <header>
+        <a href="/HTML/index.html" class="logo">
+            <img src="/img/SCC_LOGO-01.png" width="70px" height="70px" >
+            <h1> <span>SIRIPHONESAY</span> <br> Construction</h1>
+        </a>
+
+        <input type="checkbox" id="check" style="display: none;">
+        <label for="check" class="icon">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navber">
+            <ul>
+                <a href="/HTML/index.html"   style="--i:0;">HOME</a>
+                <a href="/HTML/WhoAreWe.html"style="--i:1;">WHO ARE WE</a>
+                <a href="/HTML/service.html" style="--i:2;"  class="active">SERVICE</a>
+                <a href="/HTML/project.html" style="--i:3;">PROJECT</a>
+                <a href="/HTML/contact.html" style="--i:4;">CONTACT</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <div class="img">
+            <h1 class="hidden">SERVICE</h1>
+        </div>
+        <div class="followPage hidden">
+            <div>
+                <a href="/HTML/index.html"><span>Home</span></a>
+                <i class='bx bx-chevron-right'></i>
+                <a href="/HTML/service.html"><span>Service</span></a>
+                <i class='bx bx-chevron-right'></i>
+                <span>Consultency Service</span>
+            </div>
+        </div>
+        <div class="containerContent hidden">
+
+            <nav>
+                <ul>
+                    <li>
+                        <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                            <span>Service sub nav</span>
+                            <svg  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                        </button>
+                        <ul class="sub-menu">
+                            <li><a href="/HTML/service.html" class="active" >Consultency Service</a></li>
+                            <li><a href="/HTML/service-2.html">Intrerior and Exterior Decoration Service</a></li>
+                            <li><a href="/HTML/service-3.html">Construction Renovation Service</a></li>
+                            <li><a href="/HTML/service-4.html">Construction Design Service</a></li>
+                            <li><a href="/HTML/service-5.html">Inspection Service</a></li>
+                            <li><a href="/HTML/service-6.html">Construction Service</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class="ul-desktop--scree">
+                <a href="/HTML/service.html"class="active"><li>Consultency Service</li></a>
+                <a href="/HTML/service-2.html"><li>Intrerior and Exterior Decoration Service</li></a>
+                <a href="/HTML/service-3.html" ><li>Construction Renovation Service</li></a>
+                <a href="/HTML/service-4.html"><li>Construction Design Service</li></a>
+                <a href="/HTML/service-5.html"><li>Inspection Service</li></a>
+                <a href="/HTML/service-6.html"><li>Construction Service</li></a>
+            </ul>
+
+
+            <div class="content">
+                <div>
+                    <h1>We involve providing expert advice, planning</h1>
+                    
+                    <span>
+                         <span style="font-weight: 600;">Project Planning and Feasibility Analysis:</span>Construction consultants help assess the viability of a project, including financial, legal, and technical factors. They conduct feasibility studies, cost estimations, and site assessments to ensure the project is practical and aligns with the client's goals.
+                        </span>
+                    <span> 
+                        <span style="font-weight: 600;">Design and Architectural Consultancy:</span>Consultants work closely with architects and engineers to create designs that are safe, cost-effective, and compliant with local regulations. They may also advise on material selection, sustainable practices, and innovative construction techniques.
+                    </span>
+                    <span> 
+                        <span style="font-weight: 600;">Cost Management:</span> Consultants provide budget planning, cost estimation, and financial oversight to ensure that the project remains within budget. They monitor expenses, advise on cost-saving measures, and help manage unexpected costs.
+                    </span>
+                </div>
+                <div>
+                    <h1>Management services to clients throughout various stages of a construction project.</h1>
+
+                    <span>
+                         <span style="font-weight: 600;">Regulatory Compliance and Permits:</span> Consultants assist clients in navigating the permitting process and ensuring compliance with local building codes, safety regulations, and environmental laws.
+                        </span>
+                    <span> 
+                        <span style="font-weight: 600;">Risk Management:</span> Consultants identify potential risks, such as project delays, safety issues, or regulatory challenges, and develop strategies to mitigate them. They aim to minimize delays and other project risks.
+                    </span>
+                    <span>
+                         <span style="font-weight: 600;">Project Management and Oversight:</span> Consultants can provide project management services, overseeing the entire construction process to ensure quality, efficiency, and timely completion. This includes coordinating contractors, monitoring timelines, and ensuring quality control.
+                        </span>
+                    <span> 
+                        <span style="font-weight: 600;">Sustainability and Environmental Advice</span>: Construction consultants advise on eco-friendly construction practices, energy efficiency, waste management, and sustainable materials. This helps clients achieve green building certifications or simply reduce the environmental impact.
+                </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h1>Page</h1>
+            <h1>Contact</h1>
+            <h1>Location</h1>
+        </div>
+        <div class="container">  
+            <div class="box-page">
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contect</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Project</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                
+                <ul>
+                    <li style="list-style: none;">
+                        <i class='bx bxl-facebook-square'></i>
+                        <a  href="https://www.facebook.com/share/z8FAUvyoKuLoc4sV/?mibextid=LQQJ4d">
+                            <span>Siriphonesay Construction SOLE CO.,LTD</span>
+                        </a>
+                    </li>
+                    <li style="list-style: none;">
+                        <i class='bx bxs-envelope'></i>
+                        <span>siriphonesay.office.scc@gmail.com</span>
+                    </li>
+                    <li style="list-style: none;">
+                        <i class='bx bxl-whatsapp-square' ></i>
+                        <span>+856 20 88 990 999</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="location">
+               
+                <ul>  
+                    <li style="list-style: none;">
+                        <i  class='bx bxs-map'></i>
+                        <a href="https://maps.app.goo.gl/ySHrnE12i5AeLBeB8?g_st=iw">
+                            <span>Vientain, Xaiphany, Noungphaya village</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar">     
+            <ul>
+                 <li>
+                     <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                         <span>Page</span>
+                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                     </button>
+                     <ul class="sub-menu">
+                         <div>
+                             <li style="--i:0;"><a class="effter" href="">Home</a></li>
+                             <li style="--i:1;"><a class="effter" href="">Service</a></li>
+                             <li style="--i:2;"><a class="effter" href="">Contect</a></li>
+                             <li style="--i:3;"><a class="effter" href="">About us</a></li>
+                             <li style="--i:4;"><a class="effter" href="">Project</a></li>
+                         </div>
+                     </ul>
+                 </li>
+                 <li>
+                     <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                         <span>Contact</span>
+                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                     </button>
+                     <ul class="sub-menu">
+                         <div>
+                             <li>
+                                 <a href="https://www.facebook.com/share/z8FAUvyoKuLoc4sV/?mibextid=LQQJ4d">
+                                     <i  class='bx bxl-facebook-square'></i>
+                                     <span>Siriphonesay Construction SOLE CO.,LTD</span>
+                                 </a>
+                             </li>
+                             <li> 
+                                 <i class='bx bxs-envelope'></i>
+                                 <span>siriphonesay.office.scc@gmail.com</span>
+                             </li>
+                         </div>
+                     </ul>
+                 </li>
+                 <li>
+                     <button onclick=toggleSubMenu(this) class="btn-dropdown">
+                         <span>Location</span>
+                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+                     </button>
+                     <ul class="sub-menu">
+                         <div>
+                             <li>
+                                 <a href="https://maps.app.goo.gl/ySHrnE12i5AeLBeB8?g_st=iw">
+                                     <i  class='bx bxs-map'></i>
+                                     <span>Vientain, Xaiphany, Noungphaya village</span>
+                                 </a>
+                             </li>
+                         </div>
+                     </ul>
+                 </li>
+            </ul>   
+         </div>
+
+        <div class="bottom-footer">
+            <img class="img" width="90px" height="90px" src="/img/SCC_LOGO-01.png" >
+            <span class="name-company">
+                <b>Siriphonesay Construction SOLE CO.,LTD</b> 
+            </span>
+            <div class="contact">
+                <span><i class='bx bxs-map'></i> <a href="#">Vientain, Xaiphany, Noungphaya village</a></span>
+                <span><i class='bx bxl-whatsapp-square' ></i> <a href="#">+856 20 88 990 999</a></span>
+                <span><i class='bx bxs-envelope'></i> siriphonesay.office.scc@gmail.com</span>
+            </div>
+            <div class="icon-contact">
+                <a href="https://www.facebook.com/share/z8FAUvyoKuLoc4sV/?mibextid=LQQJ4d"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.instagram.com/bornsayavong?igsh=MWxvMmQ1cjF4M3hocg%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <div class="last">
+                <span>© 2025 SIRIPHONESAY Construction. All Rights Reserved.</span>
+            </div>
+        </div>
+        
+        
+    </footer>
+
+    <script src="/Javascript/appear.js"></script>
+
+</body>
+</html>
