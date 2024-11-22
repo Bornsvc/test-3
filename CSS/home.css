@@ -1254,6 +1254,14 @@ footer {
 
         }
 
+        .article-content {
+    
+                a {
+                    transform: translateX(13px);
+                }
+   
+        }
+
     }
 
     .special-offer {
