@@ -173,18 +173,17 @@ header:hover::after {
     .icon {
         display: inline-flex;
     }
-
-    #check:checked ~ .icon #menu-icon {
-        display: none;
-    }
-
     .icon #close-icon {
         display: none;
     }
 
+    #check:checked ~ .icon #menu-icon {
+        display: none;
+    }
     #check:checked ~ .icon #close-icon {
         display: block;
     }
+
 
     .navber {
         position: absolute;
@@ -215,8 +214,7 @@ header:hover::after {
     #check:checked ~ .navber a {
         opacity: 1;
         transform: translateY(0);
-        transition-delay: calc(0.13s * var(--i)) ;
-
+        transition-delay: calc(0.13s * var(--i));
     } 
 
 }
@@ -224,6 +222,7 @@ header:hover::after {
 main {
     background-image: url(/img/2798-dassaultromuald-nicolas-web-7-1300px.jpeg) ;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -234,7 +233,6 @@ main {
     padding: 50px 80px;
     color: #fff;
     text-align: center;
-    background-attachment: fixed;
 
     h1 {
         font-size: 120px;
