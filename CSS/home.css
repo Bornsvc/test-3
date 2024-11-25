@@ -287,11 +287,12 @@ main .number-project {
         overflow: hidden;
         width: 100%;
         max-width: 100%;  /* Make slider full width */
-        height: 385px;
+        height: 435px;
 
         .slider-container {
             display: flex;
             transition: transform 0.5s ease;
+            height: auto;
 
             .card {
                 flex: 1 0 24%; /* Default: 4 columns */
@@ -333,6 +334,28 @@ main .number-project {
 
                         p {
                             margin-top: 10px;
+                        }
+                        p:nth-child(3) {
+                            display: flex;
+                            justify-content: space-between;
+
+                            a {
+                                background-color: #2a67eb;
+                                text-decoration: none;
+                                display: grid;
+                                place-items: center;
+                                color: #fff;
+                                font-weight: bold;
+                                border-radius: 6px;
+                                width: 130px;
+                                height: 40px;
+                                transform: translateY(-5px);
+                                transition: 0.3s;
+
+                                &:hover {
+                                    background-color: #2458c8;
+                                }
+                            }
                         }
                     }
                 }
@@ -480,8 +503,6 @@ section {
     height: auto;
     width: 100vw;
     padding: 50px;
-    display: flex;
-    flex-direction: column;
     gap: 2rem;
     background: linear-gradient(135deg, #FFFFFF, #FFF5E1, #D4AF37);
 
@@ -642,6 +663,8 @@ section {
       display: none;
     }
   }
+
+
 
 footer {
 
@@ -826,16 +849,6 @@ footer {
     }
 }
 
-
-  /* Extra large devices (large screens, 1200px and up) */
-  @media (max-width: 1400px) {
-
-  }
-  
-  /* Ultra large screens (very large desktops, 1400px and up) */
-  @media (max-width: 1600px) {
- 
-  }
 
 
  /* Large devices (laptops/desktops, 1024px to 1200px) */
@@ -1195,12 +1208,329 @@ footer {
 
   /* Medium devices (landscape tablets, 768px to 1024px) */
   @media (max-width: 1024px) {
- 
+    main {
+        span {
+            font-size: 1.3rem;
+            width: 80%;
+        }
+        .number-project {
+            margin-bottom: 5rem;
+            div {
+                width: 150px;
+
+    
+                q {
+                    font-size:1.3rem;
+                }
+    
+            }
+            div:after {
+                height: 50px;
+            }
+        }
+    }
+
+    footer {    
+        .sidebar {
+            display: none;
+        }
+        
+        div:nth-child(1) {
+            display: flex;
+            justify-content: space-around;
+    
+            h1:nth-child(1) {
+                font-size: 25px;
+                transform: translateX(-100px);
+            }
+            h1:nth-child(2) {
+                font-size: 25px;
+                transform: translateX(-194px);
+            }
+            h1:nth-child(3) {
+                font-size: 25px;
+                transform: translateX(-67px);
+            }
+        }
+        
+    
+        .container{
+            gap: 8rem;
+            
+            a{
+                text-decoration: none;
+                color: gold;
+                transition: 0.2s ease;
+            }
+            a:hover {
+                color: #fff;
+                text-decoration:underline;
+            }
+    
+            
+            ul {
+                li {
+                    margin-bottom: 0.75rem;
+                }
+            }
+            
+            i {
+                font-size: 25px;
+                margin-right: 10px;
+            }
+            
+            span {
+                font-size: 16px;
+                width: 300px;
+                /* background-color: red; */
+            }
+            
+            .contact {
+                ul {
+                    transform: translateY(-20px);
+    
+                    li {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+            .location {
+                ul {
+                    transform: translateY(-50px);
+    
+                    li {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+    
+            .sidebar {
+                display: none;
+            }
+            
+            .div-nav {
+                display: none;
+            }
+        }
+    
+        .img {grid-area: img;}
+        .name-company {grid-area: name-company;}
+        .contact {grid-area: contact;}
+        .icon-contact {grid-area: icon-contact;}
+        .last {grid-area: last;}
+    
+        .bottom-footer {
+            column-gap: 2rem;
+            
+            .img {
+                transform: translateX(0px);
+            }
+    
+            .name-company, .contact {
+                transform: translateY(20px);
+            }
+
+            .last {
+                font-size: small;
+                transform: translate(-200px, 45px);
+            }
+    
+        }
+    }
   }
 
   /* Small devices (portrait tablets, 600px to 767px) */
   @media (max-width: 767px) {
+    main {
+        span {
+            font-size: 1.5rem;
+            width: 100%;
+        }
+        .number-project {
+            margin-bottom: 5rem;
+            div {
+                width: 150px;
 
+    
+                q {
+                    font-size:1.3rem;
+                }
+    
+            }
+            div:after {
+                height: 50px;
+            }
+        }
+    }
+
+    .special-offer {
+        padding: 50px 27px;
+        .slider {
+            .slider-container {
+                .card {
+                    flex: 1 0 40%; /* 1 card per row */
+
+                    .info {
+                
+                        h1 {
+                            font-size: 1.3rem;
+                            .rating {
+                                font-size: 1.3rem;
+    
+                            }
+                        }
+                    }
+                }
+            }
+        }    
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        img {
+            width: 100%;
+        }
+
+        .article-content {
+    
+                a {
+                    transform: translateX(130px);
+                    width: 60%;
+                }
+   
+        }
+
+    }
+
+    section {
+
+        padding: 25px;
+        
+        .card-container{
+        display: flex;
+        flex-wrap: wrap;
+            .card {
+                width: 300px;
+                height: 170px;
+                 img {
+                    width: 100%;
+                    height: 100%;
+                 }
+                    h1 {
+                        text-align: center;
+                        width: 100%;
+                        font-size: 1.5rem;
+                    }          
+            }
+        }
+    }
+
+    footer {
+        .bottom-footer {
+            display: none;
+        }
+        
+        .container {
+            display: none;
+        }
+        h1 {
+            display: none;
+        }
+
+        .sidebar {
+            width: 100%;
+            display: grid;
+            grid-template-rows: 1fr;
+            box-sizing: border-box;
+            display: block;
+
+            ul {
+                list-style: none;
+
+               li {
+                    button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        background: none;
+                        padding:10px;
+                        color: #fff;
+                        margin-bottom: 1rem;
+                        position: relative;
+                        border: none;
+
+
+                        span {
+                            font-size: 1.3rem;
+                        }
+                    }
+                    svg {
+                        transition: 200ms ease;
+                        position: absolute;
+                        right: 10px;
+                    }
+                    .rotate svg {
+                        rotate: -180deg;
+                    }
+
+
+
+                    .sub-menu {
+                        display: grid;
+                        grid-template-rows: 0fr;
+                        transition: 300ms ease-in-out;
+                        text-align: center;
+
+                        > div {
+                            overflow: hidden;
+                            display: grid;
+                            grid-template-rows: 1fr;
+                            gap: 2rem;
+                            padding: 5px;
+
+                            a {
+                                color: gold;
+                                text-decoration: none;
+                            }
+                        }
+                        
+                    }
+                    li{
+                        font-size: 1.1rem;
+                        transform: translateY(-50px);
+                        transition: 0.3s ease;
+                        opacity: 0;
+
+                        i {
+                            font-size: 2rem;
+                        }
+                    }
+                    .show li {
+                        opacity: 1;
+                        transform: translateY(0);
+                        transition-delay: calc(0.13s * var(--i)) ;
+                    }
+                    .sub-menu.show {
+                        grid-template-rows: 1fr;
+                        border-bottom: 1px solid #666;
+                    }
+                    
+                    
+                   
+               }
+            }
+        }
+    }
   }
 
 /* Extra small devices (phones, 600px and down) */

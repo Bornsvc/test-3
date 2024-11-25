@@ -200,11 +200,7 @@ main {
         display: flex;
         margin-top: 15rem;
         gap: 10rem;
-
-            /* .card > * {
-                text-shadow: 0 0 0.5em currentColor;
-            } */
-
+        
             .card::before,
             .card::after {
                 content: '';

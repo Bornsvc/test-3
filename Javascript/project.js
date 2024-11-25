@@ -1,3 +1,6 @@
+
+
+
 const sliders = document.querySelectorAll('.image-slider');
     
 sliders.forEach(slider => {

@@ -1,6 +1,7 @@
 
 
 let currentIndex = 0;
+
         const cards = document.querySelectorAll('.slider-container .card');
         const totalCards = cards.length;
         const cardsToShow = 4;
@@ -10,7 +11,7 @@ let currentIndex = 0;
                 currentIndex++;
                 updateSlider();
             }else {
-                currentIndex = 0;
+                currentIndex = -1;
             }
             
         }
