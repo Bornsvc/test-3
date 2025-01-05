@@ -30,3 +30,5 @@ let currentIndex = 0;
             const cardWidth = cards[0].clientWidth;
             document.querySelector('.slider-container').style.transform = `translateX(-${currentIndex * (cardWidth + 20)}px`;
         }
+
+        console.log("Hiii Githup desktop")
